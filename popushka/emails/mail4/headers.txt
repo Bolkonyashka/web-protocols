@@ -1,0 +1,27 @@
++OK message follows
+Delivered-To: donbessoni@gmail.com
+Received: by 10.12.136.150 with SMTP id 22csp1019543qvn;        Sun, 4 Jun 2017 22:10:59 -0700 (PDT)
+X-Received: by 10.46.0.159 with SMTP id e31mr3187819lji.89.1496639459686;        Sun, 04 Jun 2017 22:10:59 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1496639459; cv=none;        d=google.com; s=arc-20160816;        b=zWbktxfYgNqn/k7zQSuSgXULIuGpRTQ97noAhOFHF+ZPfCNzxGMwvT6QMpp5wFOQJ6         QBT46NFYbyUHi4y/Yd2RqGJ9Jo6U8e1YqUxt4QqZyxstqr5IinYplDy6vBq+pt36wfMK         33No6uFyqtDrY33aRLjGkbrvaoscw7kgKnh9u9or+XrVeWbQu2DWPJBCOkhSGCQf1jXe         sfJz0cfAyNMTW1LjubgWT7gyVRxLjrQmPHYJLu6rj45swYDPRydM8+oau560uRZJTVQC         bwDeH/EJHf7sXfpJ+oVsmfe0kzm+ev0IcWUhpPqdYfR+bA5BP4S2fWSv88asbhwMhAA2         qeFw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=content-transfer-encoding:date:message-id:mime-version:subject:to         :from:dkim-signature:arc-authentication-results;        bh=/Hd3kARZyofcIeZVdUnOUIvh6tCGx0/1/tJtozZMhLI=;        b=Iarv3PIKUeQD5cNDdwm2N7ITCq7L9XvzbfSrPQpNEBdjERf3a2GoumTq76EO5ngfCU         WqYmrcXLZb9b6vFEZ6rKQmKAOq0r53kUQPgDqo7gbR5CIWo8DrQYSZTRmEzt9jycAt3r         BvML2aizpg1ZxBolbWNpQQGPj4MkEbvcQWBNmNKywRZI/+rYykRBNlqA9GuYI8GLdMyw         3gvgIISQm0Hpl8A6ZGqQughoY/M6aTFPVmS6g4LcRXT89V6C7nHQntEpPgoN2v8Xc0yM         xA93u0OX8M9Y9Cbc164EOoiqFj9lWy+eAUD+Z91vSRXjTXQyfQbcTp2eSxS3ceefFQFm         6G8A==
+ARC-Authentication-Results: i=1; mx.google.com;       dkim=pass header.i=@yandex.ru;
+       spf=pass (google.com: domain of romabess55555@yandex.ru designates 5.255.216.2 as permitted sender) smtp.mailfrom=romabess55555@yandex.ru;       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=yandex.ru
+Return-Path: <romabess55555@yandex.ru>
+Received: from forward1m.cmail.yandex.net (forward1m.cmail.yandex.net. [5.255.216.2])        by mx.google.com with ESMTPS id j85si6791537lfk.386.2017.06.04.22.10.59        for <donbessoni@gmail.com>        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);        Sun, 04 Jun 2017 22:10:59 -0700 (PDT)
+Received-SPF: pass (google.com: domain of romabess55555@yandex.ru designates 5.255.216.2 as permitted sender) client-ip=5.255.216.2;
+Authentication-Results: mx.google.com;       dkim=pass header.i=@yandex.ru;
+       spf=pass (google.com: domain of romabess55555@yandex.ru designates 5.255.216.2 as permitted sender) smtp.mailfrom=romabess55555@yandex.ru;       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=yandex.ru
+Received: from mxback4g.mail.yandex.net (mxback4g.mail.yandex.net [IPv6:2a02:6b8:0:1472:2741:0:8b7:165])	by forward1m.cmail.yandex.net (Yandex) with ESMTP id DBD65210CD	for <donbessoni@gmail.com>; Mon,  5 Jun 2017 08:10:58 +0300 (MSK)
+Received: from web47j.yandex.ru (web47j.yandex.ru [5.45.198.197])	by mxback4g.mail.yandex.net (nwsmtp/Yandex) with ESMTP id UlSXIOfxBN-Awb8X232;	Mon, 05 Jun 2017 08:10:58 +0300
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yandex.ru; s=mail; t=1496639458;	bh=/Hd3kARZyofcIeZVdUnOUIvh6tCGx0/1/tJtozZMhLI=;	h=From:To:Subject:Message-Id:Date;	b=YCsCcejoP3pmO8XzYXHag3PpfaRp5sEy4zNZW/hElU0XkbQk5B6AbbYE8N1cLPlFc	 OzwwYlCWJsgg4K4yjBppfH+fB0PFVslJMuQYiq01XlNqaB2LpHRrwjwR+Yoc/b1ORW	 ZJtjtRmldH59fEV9bR42RJaXkgVCT+OOWWdxcph4=
+Authentication-Results: mxback4g.mail.yandex.net; dkim=pass header.i=@yandex.ru
+Received: by web47j.yandex.ru with HTTP;	Mon, 05 Jun 2017 08:10:58 +0300
+From: 
+To: donbessoni <donbessoni@gmail.com>
+Subject: 
+MIME-Version: 1.0
+Message-Id: <6448281496639458@web47j.yandex.ru>
+X-Mailer: Yamail [ http://yandex.ru ] 5.0
+Date: Mon, 05 Jun 2017 10:10:58 +0500
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=utf-8
